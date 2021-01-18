@@ -5,3 +5,22 @@
     box-sizing: border-box;
 }
 /**********************/
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+section{
+    height: 100vh;
+    text-align: center;
+    font-size: 40px;
+}
+#section-1{
+    background-color: red;
+}
+
+.product-card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
